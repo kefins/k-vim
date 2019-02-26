@@ -2,13 +2,11 @@ k-vim
 =======================
 
 
-> VERSION: 9.2
+> VERSION: 10.1
 
-> LAST_UPDATE_TIME: 2017-07-29
+> LAST_UPDATE_TIME: 2019-02-26
 
 > 本次更新: 小版本更新, 支持vim8异步语法检查
-
-详细 [更新日志](https://github.com/wklken/k-vim/wiki/UPDATE_LOG)
 
 # 目标
 
@@ -41,7 +39,7 @@ molokai主题
 ### 1. clone 到本地
 
 ```
-git clone https://github.com/wklken/k-vim.git
+git clone https://github.com/kefins/k-vim.git
 ```
 
 
@@ -120,7 +118,7 @@ cd ~ && rm -rf .vim .vimrc .vimrc.bundles && cd -
 
 # 常见问题
 
-详见 [wiki](https://github.com/wklken/k-vim/wiki) 以及  [issues](https://github.com/wklken/k-vim/issues)
+详见 [wiki](https://github.com/kefins/k-vim/wiki) 以及  [issues](https://github.com/kefins/k-vim/issues)
 
 
 ------------------------
@@ -279,29 +277,6 @@ ctrl+n    相对/绝对行号切换
 ```
 
 ------------------------
-------------------------
-
-### UPDATE_LOG
-
-version 9.2
-
-```
-插件部分:
-1. 增加 w0rp/ale 异步语法检查插件, 用户vim版本为8.0时自动启用. 非8时, 启用默认scrooloose/syntastic, 两套插件快捷键一致
-2. 切换使用flake8作为python风格检查(pip install pep8)
-3. 启用yapf作为python代码格式化(pip install yapf)
-4. 启用eslint作为javascript代码检查
-5. YCM 设置回车选中不再弹补全框
-
-细节:
-1. 新增快捷键 gv 选中并高亮最后一次插入的内容
-```
-
-### Contributors
-
-thx a lot. 可以给我提pull request:)
-
-查看详情 [git-contributors](https://github.com/wklken/k-vim/graphs/contributors)
 
 ### Inspire
 
@@ -315,28 +290,7 @@ thx a lot. 可以给我提pull request:)
 
 4. 插件挑选 [VimAwesome](http://vimawesome.com/)
 
-### Resources
-
-[链接](http://www.wklken.me/posts/2014/10/03/vim-resources.html)
-
-### Donation
-
-如果你认为对你有所帮助, You can Buy me a coffee:)
-
-
-![donation](https://raw.githubusercontent.com/wklken/gallery/master/donation/donation_w.jpg)
 
 ------------------------
-------------------------
 
-The End!
-
-wklken (凌岳/pythoner/vim党预备党员)
-
-Github: https://github.com/wklken
-
-Blog: [http://www.wklken.me](http://www.wklken.me)
-
-2013-06-11 于深圳
-
-
+Github: https://github.com/kefins
